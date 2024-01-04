@@ -21,7 +21,7 @@ const ModalPopup = () => {
   return (
     <div>
       <button
-        className="flex items-center justify-between"
+        className="flex items-center justify-between flex-wrap"
         onClick={handleOpen}
       >
         <div className="rounded-full p-2 shadow-2xl bg-white mr-5 w-[57px] h-[57px] flex justify-center">

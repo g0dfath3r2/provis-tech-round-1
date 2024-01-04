@@ -25,12 +25,12 @@ const Banner = () => {
             customer teams, engaged people working in an agile culture, and a
             global footprint
           </p>
-          <div className="flex items-center justify-between  w-[316px]">
+          <div className="flex items-center justify-between w-[316px]">
             <Button
               text="Join Now"
               buttonClass="bg-[#2C2D5B] text-white rounded-[12px] px-[40px] py-[20px]"
             />
-            <div className="flex items-center justify-between text-[#2C2D5B]">
+            <div className="flex items-center justify-between text-[#2C2D5B] flex-wrap">
               {/* <button className="flex items-center justify-between">
                 <div className="rounded-full p-2 shadow-2xl bg-white mr-5 w-[57px] h-[57px] flex justify-center">
                   <FaVideo className="w-[23px] h-[17px] m-auto" />
@@ -52,7 +52,7 @@ const Banner = () => {
           }}
           noValidate
           autoComplete="off"
-          className="shadow-xl w-9/12 m-auto rounded-xl p-9"
+          className="shadow-xl w-full sm:w-9/12 m-auto rounded-xl p-9"
         >
           {/* <div className=""> */}
           <TextField
