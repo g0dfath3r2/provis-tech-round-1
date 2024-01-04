@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { TbBulb } from "react-icons/tb";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="flex flex-wrap justify-evenly px-[150px] pt-[50px] gap-16 items-center text-sm relative z-100 bg-white">
