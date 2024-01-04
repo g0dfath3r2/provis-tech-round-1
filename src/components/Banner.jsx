@@ -8,7 +8,7 @@ import ModalPopup from "./ModalPopup";
 const Banner = () => {
   return (
     <>
-      <div className="flex justify-between items-center px-[75px] flex-wrap">
+      <div className="flex justify-between items-center sm:px-[75px] px-8 flex-wrap">
 
         <img src="/banner/Group_7031.png" alt="" className="object-contain" />
         <img src="/banner/delivery.png" alt="" className="object-contain" />

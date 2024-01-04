@@ -6,9 +6,9 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div className="bg-[#2C2D5B] py-[50px] px-[150px] w-full">
+    <div className="bg-[#2C2D5B] sm:py-[50px] py-6 px-20 sm:px-[150px] w-full">
       <div className="flex justify-between flex-wrap gap-40 border-b-2 border-[#e5e5e5] text-white pb-[70px]">
-        <div className="w-[220px]">
+        <div className="sm:w-[220px]">
           <h1 className="text-[#F67366] text-2xl leading-[29px] mb-5">
             Ship<span className="font-black text-white">Up</span>
           </h1>

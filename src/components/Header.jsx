@@ -11,10 +11,10 @@ const Header = () => {
 
   return (
     <div className="flex flex-wrap justify-evenly px-[150px] pt-[50px] gap-16 items-center text-sm relative z-100 bg-white">
-      <h1 className="text-[#2C2D5B] text-2xl">
+      <h1 className="text-[rgb(44,45,91)] text-2xl">
         Ship<span className="text-[#F67366]">UP</span>
       </h1>
-      <ul className="list-unstyled flex justify-between gap-7 items-center font-medium flex-wrap">
+      <ul className="list-unstyled relative flex justify-between gap-7 items-center font-medium flex-wrap">
         <li
           className="flex items-center gap-[5px] cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
@@ -22,10 +22,10 @@ const Header = () => {
           Company <FaChevronDown size={15} />
         </li>
         {isOpen && (
-          <div className="absolute top-28 z-10 gap-20 bg-white pt-[23px] pb-[46px] pl-[25px] pr-[111px] flex flex-wrap">
-            <div className="">
-              <h1 className="text-2xl font-bold mb-[21px]">Company</h1>
-              <div className="flex items-center justify-between w-[276px]">
+          <div className="absolute -left-32 sm:left-0 top-12 z-10 gap-20 bg-white py-5 px-4 md:pt-[23px] md:pb-[46px] md:pl-[25px] md:pr-[111px] md:w-[780px] flex flex-wrap">
+            <div className="w-[320px]">
+              <h1 className="text-2xl font-bold mb-[21px] text-center sm:text-left">Company</h1>
+              <div className="flex items-center justify-between">
                 <div className="w-9 h-9 bg-[#f4f4f4] rounded-full p-[9px] mr-5 -mt-3">
                   <MdPersonAddAlt1 className="text-[#F67366]" size={18} />
                 </div>
@@ -39,7 +39,7 @@ const Header = () => {
                 </div>
               </div>
 
-              <div className="flex items-center ">
+              <div className="flex items-center">
                 <div className="w-9 h-9 bg-[#f4f4f4] rounded-full p-[9px] mr-5 -mt-3">
                   <MdLocationOn className="text-[#F67366]" size={18} />
                 </div>
